@@ -1,0 +1,23 @@
+{
+	"Star": {
+		"Name": "Sun",
+		"Planet":
+		[
+			{
+				"Name": "Mars",
+				"Details": {
+					"Gravity": "0.376 g",
+					"Pressure": "0.636 kPa"
+				},
+				"Moon":[
+					{
+						"Name": "Phobos"
+					},
+					{
+						"Name": "Daemos"
+					}
+				]
+			}
+		]
+	}
+}
