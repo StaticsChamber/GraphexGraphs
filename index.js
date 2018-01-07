@@ -1,6 +1,7 @@
 console.log("Starting server");
-main();
-function main(){
-	node json-server --watch docs\solar.json
-}
+//main();
+json-server --watch docs\solar.json
+//function main(){
+//	node json-server --watch docs\solar.json;
+//}
 
