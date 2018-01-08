@@ -1,1 +1,0 @@
-json-server --watch docs\solar.json

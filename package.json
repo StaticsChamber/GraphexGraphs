@@ -1,15 +1,14 @@
 {
-  "name": "jsonsvr",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "json-server-azure",
+  "version": "0.0.0",
+  "license": "MIT",
   "scripts": {
-	"start": "json-server --watch docs/solar.json",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "fake-api": "json-server --watch db.json"
   },
-  "author": "",
-  "license": "ISC",
+  "private": true,
   "dependencies": {
-    "json-server": "^0.12.1"
-  }
+    "json-server": "^0.12.0",
+    "express": "^4.15.4"
+  },
+  "devDependencies": {}
 }
